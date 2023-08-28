@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- link to bootstrap as well as the css file for style-->
+        <title>Curriculum Vitae of Luyanda Dlamini</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link href = "MYCSS.css" rel = "stylesteet" />
+    </head>
+    <!-- Header for the html file with inline styling-->
+    <header><h1 style = "grid-column: 1/13;
+        grid-row: 1;
+        background-color: rgb(43, 77, 77);
+        text-align: center">Curriculum Vitae of Luyanda Dlamini</h1>
+    </header>
+    
+        
+    <body>
+        <!-- Internal css styling, i've been having trouble with external styling and i discussed with keenan du plessis, something we couldn't figure out keeps blocking my css files.-->
+        <style>
+            img:hover{
+                transition: 1s;
+                transform: scale(1.10);
+            }
+
+            #info:hover{
+                transform: scale(1.10);
+                transition: 1s;
+                opacity: 0.9;
+                background-color: gray;
+                color: aliceblue;
+            }
+
+            .h3{
+                color: aliceblue;
+            }
+
+        </style>
+        <!-- divide the first row-->
+        <div class="row" id="row1">
+            <!-- devide the first row into 2 columns of 4 and 8-->
+            <div class="col-md-4 " >
+                <!-- first column will have an image and a link to my portfolio-->
+                <img src="me.jpg"
+                    width="300"
+                    height="400"/>
+                    <a href = "https://www.hyperiondev.com/portfolio/166505/">My portfolio</a>
+            </div>
+            <!-- second column will have my bio information-->
+            <div class="col-md-8" id="info">
+                <h2 style = "grid-row: 2;
+                    text-align: left;
+                    background-color: darkslategray;">Bio: 
+                </h2>
+                <p>Dynamic, diligent, dedicated, and willing to work hard towards the goal.Consistent and driven young person who is passionate about making a change to society. Dedicated, enthusiastic and loyal. Meticulous researcher, analyst, strategic thinker.<br>
+                    Proactive with a focus on solutions. Attention to detail and active listener. Great at following Instructions. I hold a Bachelors degree in Microbiology and Biochemistry from the University of Kwazulu Natal.<br>
+                    I learned a lot with my time at UKZN, especially being dedicated to your studies an creating. This has carried on to the software engeneering bootcamp that i am currenty studying with Hypeion Dev. I am currently on my second month out of 3 months doing software engeneering with Hyperion DEV.<br>
+                    I am Thoughrouly enjoying learning software engeneering, especially level 1 which was dealing more with python programming language that I feel i gravitated more towards and how easy it is to work with.<br>
+                    With my new found skills I hope to be able to land a job with a company that would not limit my growth but rather encourage me to learn more about coding and possibly persue a computer science degree to strengthen my skills.<br>
+                    I am a lover of knowledge and my passion has always been with the biological sciences so persuing post graduate degrees in the biological sciences is also in the pipeline.<br>
+                    My greatest dream would be to find a career where i can merge both software engeneering and the biological sciences to make the use of all my skills, <br>
+                    these would be disciplines sunch as bioinformatics, epidemiology and biostatistics. designing software that would be used in these fields would bring me great joy.<br> 
+                </p>
+            </div>
+            
+        </div>
+           
+
+        <h3 style="font-weight: bolder;"> Personal Information </h3>
+            <P> Name : Luyanda Dlamini</P>
+        
+        <h3 style="font-weight: bolder;"> Qualifications </h3>
+            <ul>BSc Microbiology and Biochemistry</ul>
+
+        <h3 style="font-weight: bolder;"> Skills </h3>
+        <!--un ordered list of skills with bullet points-->
+            <ul>
+                <li>Python</li>
+                <li> MS office</li>
+                <li>Meditech Systems</li>
+                <li>communication</li>
+                <li>time management</li>
+
+            </ul>
+
+        <h3 style="font-weight: bolder;"> Hobbies </h3>
+        <!--unordered list of hobbies with bullet points-->
+            <ul>
+               <li>Reading books</li>
+               <li>Playing console games</li>
+               <li>Spending time with family and friends</li>
+            </ul>
+
+        <footer>
+            <h3 style="font-weight: bolder;"> Contact details </h3>
+            <!--contact information at footer, this includes links to my social media sites-->
+            <p style="background-color: darkslategray;"> <a href = "https://www.instagram.com/luya_soyipha/">Instagram</a>   <a href = "https://www.facebook.com/lvyahSoyipha">facebook</a> 
+            </p>
+        </footer>
+    </body>
+</html>
